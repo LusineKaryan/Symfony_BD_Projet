@@ -67,8 +67,6 @@ class BdController extends AbstractController
             closedir($dossier);
         }
 
-
-
         return $this->render('bd/show.html.twig', [
             'produits' => $produits,
             'couvertures' => $couvertures  
